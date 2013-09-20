@@ -1,4 +1,4 @@
-function smileys() {
+function smileys(arguments) {
     var srcWelcome = "http://www.freesmileys.org/smileys/smiley-basic/bye.gif";
     if (arguments.length == 0) {
         var texts = document.getElementsByTagName('input');
