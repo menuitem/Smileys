@@ -17,7 +17,6 @@ function smileys() {
     if (arguments.length == 1){
         var element = arguments[0]
         var img = arguments[0].nextSibling;
-        console.log(element.value)
         if (element.value==""){
             img.setAttribute('src', srcWelcome);
             return
