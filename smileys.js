@@ -1,7 +1,7 @@
 function smileys() {
     var srcWelcome = "http://www.freesmileys.org/smileys/smiley-basic/bye.gif";
     var srcGood = "http://www.freesmileys.org/smileys/smiley-basic/biggrin.gif";
-    var srcBad = "http://www.freesmileys.org/smileys/smiley-basic/rofl.gif";
+    var srcBad = "http://www.freesmileys.org/smileys/smiley-angry008.gif";
     if (arguments.length == 0) {
         var texts = document.getElementsByTagName('input');
         for (var i = 0; i < texts.length; i++) {
